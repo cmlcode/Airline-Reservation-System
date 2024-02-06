@@ -1,0 +1,17 @@
+queries:
+  - ...
+languages:
+  - cpp
+queries:
+  - ...
+databases:
+  - ...
+
+# Build system configuration
+build:
+  variant: debug/release
+  command: make
+
+# Analysis configuration
+queries:
+  - codeql-queries
